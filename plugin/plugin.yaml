@@ -1,0 +1,13 @@
+name: notes
+version: 0.1.0
+description: Browse and read vault notes over HTTP
+author: AnotherMe
+entrypoint: plugin
+capabilities:
+  - routes
+  - ui
+dependencies: []
+ui:
+  tab: Vault
+  icon: vault
+  order: 45
